@@ -1,0 +1,2820 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: "Teko", monospace;
+	font-weight: 700;
+}
+
+.container {
+	width: 100%;
+	height: 48px;
+}
+
+#first {
+	position: absolute;
+	top: calc(100% - 40px);
+	left: 10px;
+	color: white;
+	font-family: "Courier New";
+}
+
+#last {
+	position: absolute;
+	top: calc(100% - 20px);
+	left: 10px;
+	color: white;
+	font-family: "Courier New";
+}
+
+/* Horizontal Items */
+#LEMI {
+	width: calc(64px * 3);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) 0 9px;
+}
+
+#M1911 {
+	width: calc(64px * 3);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -192px 9px;
+}
+
+#V61Custom {
+	width: calc(64px * 3);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -384px 9px;
+}
+
+#M1897 {
+	width: calc(64px * 5);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -576px 9px;
+}
+
+#W870TAC {
+	width: calc(64px * 5);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) 0px -128px;
+}
+
+#SYG12 {
+	width: calc(64px * 6);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -356px -128px;
+}
+
+#WCX {
+	width: calc(64px * 5);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -704px -128px;
+}
+
+#Unknown {
+	
+}
+
+#F2Rifle {
+	width: calc(64px * 6);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -384px -256px;
+}
+
+#M1851Wolfsbane {
+	width: calc(64px * 4);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -768px -256px;
+}
+
+#STAKE {
+	width: calc(64px * 4);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -8px -387px;
+}
+
+#RocketPistol {
+	width: calc(64px * 4);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -264px -387px;
+}
+
+#GM79 {
+	width: calc(64px * 5);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -512px -387px;
+}
+
+#USMAI, #USMAIChris {
+	width: calc(64px * 3);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -832px -384px;
+}
+
+#Dragoon, #DragoonChris {
+	width: calc(64px * 5);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) 0px -512px;
+}
+
+#SamuraiEdge {
+	width: calc(64px * 3);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -320px -512px;
+}
+
+#HandcannonPZ {
+	width: calc(64px * 4);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -645px -519px;
+}
+
+#HandgunAmmo {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) 0px -641px;
+}
+
+#ShotgunAmmo {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -128px -641px;
+}
+
+#Flashbang {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -256px -641px;
+}
+
+#SniperRifleAmmo {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -384px -641px;
+}
+
+#ExplosiveRounds {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -512px -641px;
+}
+
+#RifleAmmo {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -640px -641px;
+}
+
+#MagnumAmmo {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -768px -641px;
+}
+
+#RocketAmmo {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -896px -641px;
+}
+
+#Knife {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) 0 -705px;
+}
+
+#PipeBomb {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -128px -705px;
+}
+
+#Mine {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -256px -705px;
+}
+
+#FlashGrenadeChris {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -384px -705px;
+}
+
+#KarambitKnife, #KarambitKnifeChris {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -512px -705px;
+}
+
+#GrenadeChris {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -640px -705px;
+}
+
+#MedInjector {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -768px -705px;
+}
+
+#FirstAidMed {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) 0px -769px;
+}
+
+#LEMIHighCapacityMag {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -128px -769px;
+}
+
+#M1911HighCapacityMag {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -256px -769px;
+}
+
+#M1911ImprovedGrip {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -384px -769px;
+}
+
+#V61CustomLongBarrel {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -512px -769px;
+}
+
+#W870TACForegrip {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -640px -769px;
+}
+
+#SYG12LongBarrel {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -768px -769px;
+}
+
+#SYG12RedDotSight {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -896px -769px;
+}
+
+#F2RifleHighCapacityMag {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) 0px -833px;
+}
+
+#F2RifleHighMagnificationScope {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -128px -833px;
+}
+
+#F2RifleCheekRest {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -256px -833px;
+}
+
+#M1851WolfsbaneLongBarrelMod {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -384px -833px;
+}
+
+#STAKEHighCapacityMag {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -512px -833px;
+}
+
+#Grip1 {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -640px -833px;
+}
+
+#WCXForegrip {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -768px -833px;
+}
+
+#WCXRedDotSight {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Inventory.svg) -896px -833px;
+}
+
+#Fish {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Food.svg) 0px -64px;
+}
+
+#Poultry {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/Food.svg) 0px 0px;
+}
+
+/* Vertical Items */
+#LEMIVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 3);
+  background: url(images/InventoryVertical.svg) -905px 0px;
+}
+
+#M1911Vertical {
+	width: calc(64px * 2);
+  height: calc(64px * 3);
+  background: url(images/InventoryVertical.svg) -905px -192px;
+}
+
+#V61CustomVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 3);
+  background: url(images/InventoryVertical.svg) -905px -384px;
+}
+
+#M1897Vertical {
+	width: calc(64px * 2);
+  height: calc(64px * 5);
+  background: url(images/InventoryVertical.svg) -905px -576px;
+}
+
+#W870TACVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 5);
+  background: url(images/InventoryVertical.svg) -768px 0px;
+}
+
+#SYG12Vertical {
+	width: calc(64px * 2);
+  height: calc(64px * 6);
+  background: url(images/InventoryVertical.svg) -768px -352px;
+}
+
+#WCXVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 5);
+  background: url(images/InventoryVertical.svg) -768px -704px;
+}
+
+#UnknownVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 6);
+  background: url(images/InventoryVertical.svg) -640px 0px;
+}
+
+#F2RifleVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 6);
+  background: url(images/InventoryVertical.svg) -640px -384px;
+}
+
+#M1851WolfsbaneVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 4);
+  background: url(images/InventoryVertical.svg) -640px -768px;
+}
+
+#STAKEVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 4);
+  background: url(images/InventoryVertical.svg) -512px 0px;
+}
+
+#RocketPistolVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 4);
+  background: url(images/InventoryVertical.svg) -512px -266px;
+}
+
+#GM79Vertical {
+	width: calc(64px * 2);
+  height: calc(64px * 5);
+  background: url(images/InventoryVertical.svg) -512px -512px;
+}
+
+#USMAIVertical, #USMAIChrisVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 3);
+  background: url(images/InventoryVertical.svg) -512px -832px;
+}
+
+#DragoonVertical, #DragoonChrisVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 5);
+  background: url(images/InventoryVertical.svg) -384px 0px;
+}
+
+#SamuraiEdgeVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 3);
+  background: url(images/InventoryVertical.svg) -384px -320px;
+}
+
+#HandcannonPZVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 4);
+  background: url(images/InventoryVertical.svg) -384px -644px;
+}
+
+#HandgunAmmoVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px 0px;
+}
+
+#ShotgunAmmoVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -128px;
+}
+
+#FlashbangVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -256px;
+}
+
+#SniperRifleAmmoVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -384px;
+}
+
+#ExplosiveRoundsVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -512px;
+}
+
+#RifleAmmoVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -640px;
+}
+
+#MagnumAmmoVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -768px;
+}
+
+#RocketAmmoVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -319px -896px;
+}
+
+#KnifeVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px 0px;
+}
+
+#PipeBombVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px -128px;
+}
+
+#MineVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px -256px;
+}
+
+#FlashGrenadeChrisVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px -384px;
+}
+
+#KarambitKnifeVertical, #KarambitKnifeChrisVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px -512px;
+}
+
+#GrenadeChrisVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px -640px;
+}
+
+#MedInjectorVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -255px -768px;
+}
+
+#FirstAidMedVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px 0px;
+}
+
+#LEMIHighCapacityMagVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -128px;
+}
+
+#M1911HighCapacityMagVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -256px;
+}
+
+#M1911ImprovedGripVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -384px;
+}
+
+#V61CustomLongBarrelVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -512px;
+}
+
+#W870TACForegripVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -640px;
+}
+
+#SYG12LongBarrelVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -768px;
+}
+
+#SYG12RedDotSightVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -191px -896px;
+}
+
+#F2RifleHighCapacityMagVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px 0px;
+}
+
+#F2RifleHighMagnificationScopeVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px -128px;
+}
+
+#F2RifleCheekRestVertical {
+	width: calc(64px * 2);
+  height: calc(64px * 1);
+  background: url(images/InventoryVertical.svg) -127px -256px;
+}
+
+#M1851WolfsbaneLongBarrelModVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px -384px;
+}
+
+#STAKEHighCapacityMagVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px -512px;
+}
+
+#Grip1Vertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px -640px;
+}
+
+#WCXForegripVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px -768px;
+}
+
+#WCXRedDotSightVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/InventoryVertical.svg) -127px -896px;
+}
+
+#FishVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/FoodVertical.svg) -128px 0px;
+}
+
+#PoultryVertical {
+	width: calc(64px * 1);
+  height: calc(64px * 2);
+  background: url(images/FoodVertical.svg) -192px 0px;
+}
+
+/* 2x2 Items */
+#Meat {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Food.svg) -256px 0px;
+}
+
+#V61CustomDrumMagazine {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) 0px -896px;
+}
+
+#V61CustomGunstock {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -128px -896px;
+}
+
+#W870TACImprovedGunstock {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -256px -896px;
+}
+
+#SYG12DrumMagazine {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -384px -896px;
+}
+
+#LZAnswerer {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -768px -896px;
+}
+
+#TargetLocatorChris {
+	width: calc(64px * 2);
+  height: calc(64px * 2);
+  background: url(images/Inventory.svg) -896px -896px;
+}
+
+/* 1x1 Items */
+#LEMIRecoilCompensator {
+	width: 64px;
+  height: 64px;
+  background: url(images/Items.svg) 0px 0px;
+}
+
+#M1851WolfsbaneIncreasedCapacityCylinder {
+	width: 64px;
+  height: 64px;
+  background: url(images/Items.svg) -64px 0px;
+}
+
+#M1897HairTrigger {
+	width: 64px;
+  height: 64px;
+  background: url(images/Items.svg) 0px -64px;
+}
+
+#Lockpick {
+	width: 64px;
+  height: 64px;
+  background: url(images/Items.svg) -64px -64px;
+}
+
+#M1897MrRaccoon {
+	width: 64px;
+  height: 64px;
+  background: url(images/Items.svg) 0px -128px;
+}
+
+#M1897MrEverything {
+	width: 64px;
+  height: 64px;
+  background: url(images/Items.svg) -64px -128px;
+}
+
+
+
+#InventorySmall {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: calc(64px * 9);
+  height: calc(64px * 5);
+  background: url(images/EmptySlot.svg);
+}
+
+#InventoryMedium {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: calc(64px * 11);
+  height: calc(64px * 7);
+  background: url(images/EmptySlot.svg);
+}
+
+#InventoryLarge {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: calc(64px * 13);
+  height: calc(64px * 8);
+  background: url(images/EmptySlot.svg);
+}
+
+#InventoryXLarge {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: calc(64px * 14);
+  height: calc(64px * 9);
+  background: url(images/EmptySlot.svg);
+}
+
+.slot0 {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 0);
+}
+
+.slot1 {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 0);
+}
+
+.slot2 {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 0);
+}
+
+.slot3 {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 0);
+}
+
+.slot4 {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 0);
+}
+
+.slot5 {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 0);
+}
+
+.slot6 {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 0);
+}
+
+.slot7 {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 0);
+}
+
+.slot8 {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 0);
+}
+
+/* Small Inventory */
+.slot9Small {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 1);
+}
+
+.slot10Small {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 1);
+}
+
+.slot11Small {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 1);
+}
+
+.slot12Small {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 1);
+}
+
+.slot13Small {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 1);
+}
+
+.slot14Small {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 1);
+}
+
+.slot15Small {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 1);
+}
+
+.slot16Small {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 1);
+}
+
+.slot17Small {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 1);
+}
+
+.slot18Small {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 2);
+}
+
+.slot19Small {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 2);
+}
+
+.slot20Small {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 2);
+}
+
+.slot21Small {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 2);
+}
+
+.slot22Small {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 2);
+}
+
+.slot23Small {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 2);
+}
+
+.slot24Small {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 2);
+}
+
+.slot25Small {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 2);
+}
+
+.slot26Small {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 2);
+}
+
+.slot27Small {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 3);
+}
+
+.slot28Small {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 3);
+}
+
+.slot29Small {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 3);
+}
+
+.slot30Small {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 3);
+}
+
+.slot31Small {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 3);
+}
+
+.slot32Small {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 3);
+}
+
+.slot33Small {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 3);
+}
+
+.slot34Small {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 3);
+}
+
+.slot35Small {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 3);
+}
+
+.slot36Small {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 4);
+}
+
+.slot37Small {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 4);
+}
+
+.slot38Small {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 4);
+}
+
+.slot39Small {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 4);
+}
+
+.slot40Small {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 4);
+}
+
+.slot41Small {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 4);
+}
+
+.slot42Small {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 4);
+}
+
+.slot43Small {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 4);
+}
+
+.slot44Small {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 4);
+}
+
+/* Medium Inventory */
+.slot9Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 0);
+}
+
+.slot10Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 0);
+}
+
+.slot11Medium {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 1);
+}
+
+.slot12Medium {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 1);
+}
+
+.slot13Medium {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 1);
+}
+
+.slot14Medium {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 1);
+}
+
+.slot15Medium {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 1);
+}
+
+.slot16Medium {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 1);
+}
+
+.slot17Medium {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 1);
+}
+
+.slot18Medium {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 1);
+}
+
+.slot19Medium {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 1);
+}
+
+.slot20Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 1);
+}
+
+.slot21Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 1);
+}
+
+.slot22Medium {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 2);
+}
+
+.slot23Medium {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 2);
+}
+
+.slot24Medium {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 2);
+}
+
+.slot25Medium {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 2);
+}
+
+.slot26Medium {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 2);
+}
+
+.slot27Medium {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 2);
+}
+
+.slot28Medium {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 2);
+}
+
+.slot29Medium {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 2);
+}
+
+.slot30Medium {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 2);
+}
+
+.slot31Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 2);
+}
+
+.slot32Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 2);
+}
+
+.slot33Medium {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 3);
+}
+
+.slot34Medium {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 3);
+}
+
+.slot35Medium {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 3);
+}
+
+.slot36Medium {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 3);
+}
+
+.slot37Medium {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 3);
+}
+
+.slot38Medium {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 3);
+}
+
+.slot39Medium {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 3);
+}
+
+.slot40Medium {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 3);
+}
+
+.slot41Medium {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 3);
+}
+
+.slot42Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 3);
+}
+
+.slot43Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 3);
+}
+
+.slot44Medium {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 4);
+}
+
+.slot45Medium {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 4);
+}
+
+.slot46Medium {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 4);
+}
+
+.slot47Medium {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 4);
+}
+
+.slot48Medium {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 4);
+}
+
+.slot49Medium {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 4);
+}
+
+.slot50Medium {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 4);
+}
+
+.slot51Medium {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 4);
+}
+
+.slot52Medium {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 4);
+}
+
+.slot53Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 4);
+}
+
+.slot54Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 4);
+}
+
+.slot55Medium {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 5);
+}
+
+.slot56Medium {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 5);
+}
+
+.slot57Medium {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 5);
+}
+
+.slot58Medium {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 5);
+}
+
+.slot59Medium {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 5);
+}
+
+.slot60Medium {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 5);
+}
+
+.slot61Medium {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 5);
+}
+
+.slot62Medium {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 5);
+}
+
+.slot63Medium {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 5);
+}
+
+.slot64Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 5);
+}
+
+.slot65Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 5);
+}
+
+.slot66Medium {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 6);
+}
+
+.slot67Medium {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 6);
+}
+
+.slot68Medium {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 6);
+}
+
+.slot69Medium {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 6);
+}
+
+.slot70Medium {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 6);
+}
+
+.slot71Medium {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 6);
+}
+
+.slot72Medium {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 6);
+}
+
+.slot73Medium {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 6);
+}
+
+.slot74Medium {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 6);
+}
+
+.slot75Medium {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 6);
+}
+
+.slot76Medium {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 6);
+}
+
+/* Large Inventory */
+.slot9Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 0);
+}
+
+.slot10Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 0);
+}
+
+.slot11Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 0);
+}
+
+.slot12Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 0);
+}
+
+.slot13Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 1);
+}
+
+.slot14Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 1);
+}
+
+.slot15Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 1);
+}
+
+.slot16Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 1);
+}
+
+.slot17Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 1);
+}
+
+.slot18Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 1);
+}
+
+.slot19Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 1);
+}
+
+.slot20Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 1);
+}
+
+.slot21Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 1);
+}
+
+.slot22Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 1);
+}
+
+.slot23Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 1);
+}
+
+.slot24Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 1);
+}
+
+.slot25Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 1);
+}
+
+.slot26Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 2);
+}
+
+.slot27Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 2);
+}
+
+.slot28Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 2);
+}
+
+.slot29Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 2);
+}
+
+.slot30Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 2);
+}
+
+.slot31Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 2);
+}
+
+.slot32Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 2);
+}
+
+.slot33Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 2);
+}
+
+.slot34Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 2);
+}
+
+.slot35Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 2);
+}
+
+.slot36Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 2);
+}
+
+.slot37Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 2);
+}
+
+.slot38Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 2);
+}
+
+.slot39Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 3);
+}
+
+.slot40Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 3);
+}
+
+.slot41Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 3);
+}
+
+.slot42Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 3);
+}
+
+.slot43Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 3);
+}
+
+.slot44Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 3);
+}
+
+.slot45Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 3);
+}
+
+.slot46Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 3);
+}
+
+.slot47Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 3);
+}
+
+.slot48Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 3);
+}
+
+.slot49Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 3);
+}
+
+.slot50Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 3);
+}
+
+.slot51Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 3);
+}
+
+.slot52Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 4);
+}
+
+.slot53Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 4);
+}
+
+.slot54Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 4);
+}
+
+.slot55Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 4);
+}
+
+.slot56Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 4);
+}
+
+.slot57Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 4);
+}
+
+.slot58Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 4);
+}
+
+.slot59Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 4);
+}
+
+.slot60Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 4);
+}
+
+.slot61Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 4);
+}
+
+.slot62Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 4);
+}
+
+.slot63Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 4);
+}
+
+.slot64Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 4);
+}
+
+.slot65Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 5);
+}
+
+.slot66Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 5);
+}
+
+.slot67Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 5);
+}
+
+.slot68Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 5);
+}
+
+.slot69Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 5);
+}
+
+.slot70Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 5);
+}
+
+.slot71Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 5);
+}
+
+.slot72Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 5);
+}
+
+.slot73Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 5);
+}
+
+.slot74Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 5);
+}
+
+.slot75Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 5);
+}
+
+.slot76Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 5);
+}
+
+.slot77Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 5);
+}
+
+.slot78Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 6);
+}
+
+.slot79Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 6);
+}
+
+.slot80Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 6);
+}
+
+.slot81Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 6);
+}
+
+.slot82Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 6);
+}
+
+.slot83Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 6);
+}
+
+.slot84Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 6);
+}
+
+.slot85Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 6);
+}
+
+.slot86Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 6);
+}
+
+.slot87Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 6);
+}
+
+.slot88Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 6);
+}
+
+.slot89Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 6);
+}
+
+.slot90Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 6);
+}
+
+.slot91Large {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 7);
+}
+
+.slot92Large {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 7);
+}
+
+.slot93Large {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 7);
+}
+
+.slot94Large {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 7);
+}
+
+.slot95Large {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 7);
+}
+
+.slot96Large {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 7);
+}
+
+.slot97Large {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 7);
+}
+
+.slot98Large {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 7);
+}
+
+.slot99Large {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 7);
+}
+
+.slot100Large {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 7);
+}
+
+.slot101Large {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 7);
+}
+
+.slot102Large {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 7);
+}
+
+.slot103Large {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 7);
+}
+
+/* XLarge Inventory */
+.slot9XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 0);
+}
+
+.slot10XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 0);
+}
+
+.slot11XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 0);
+}
+
+.slot12XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 0);
+}
+
+.slot13XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 0);
+}
+
+.slot14XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 1);
+}
+
+.slot15XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 1);
+}
+
+.slot16XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 1);
+}
+
+.slot17XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 1);
+}
+
+.slot18XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 1);
+}
+
+.slot19XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 1);
+}
+
+.slot20XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 1);
+}
+
+.slot21XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 1);
+}
+
+.slot22XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 1);
+}
+
+.slot23XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 1);
+}
+
+.slot24XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 1);
+}
+
+.slot25XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 1);
+}
+
+.slot26XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 1);
+}
+
+.slot27XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 1);
+}
+
+.slot28XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 2);
+}
+
+.slot29XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 2);
+}
+
+.slot30XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 2);
+}
+
+.slot31XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 2);
+}
+
+.slot32XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 2);
+}
+
+.slot33XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 2);
+}
+
+.slot34XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 2);
+}
+
+.slot35XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 2);
+}
+
+.slot36XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 2);
+}
+
+.slot37XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 2);
+}
+
+.slot38XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 2);
+}
+
+.slot39XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 2);
+}
+
+.slot40XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 2);
+}
+
+.slot41XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 2);
+}
+
+.slot42XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 3);
+}
+
+.slot43XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 3);
+}
+
+.slot44XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 3);
+}
+
+.slot45XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 3);
+}
+
+.slot46XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 3);
+}
+
+.slot47XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 3);
+}
+
+.slot48XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 3);
+}
+
+.slot49XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 3);
+}
+
+.slot50XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 3);
+}
+
+.slot51XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 3);
+}
+
+.slot52XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 3);
+}
+
+.slot53XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 3);
+}
+
+.slot54XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 3);
+}
+
+.slot55XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 3);
+}
+
+.slot56XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 4);
+}
+
+.slot57XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 4);
+}
+
+.slot58XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 4);
+}
+
+.slot59XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 4);
+}
+
+.slot60XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 4);
+}
+
+.slot61XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 4);
+}
+
+.slot62XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 4);
+}
+
+.slot63XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 4);
+}
+
+.slot64XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 4);
+}
+
+.slot65XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 4);
+}
+
+.slot66XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 4);
+}
+
+.slot67XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 4);
+}
+
+.slot68XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 4);
+}
+
+.slot69XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 4);
+}
+
+.slot70XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 5);
+}
+
+.slot71XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 5);
+}
+
+.slot72XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 5);
+}
+
+.slot73XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 5);
+}
+
+.slot74XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 5);
+}
+
+.slot75XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 5);
+}
+
+.slot76XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 5);
+}
+
+.slot77XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 5);
+}
+
+.slot78XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 5);
+}
+
+.slot79XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 5);
+}
+
+.slot80XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 5);
+}
+
+.slot81XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 5);
+}
+
+.slot82XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 5);
+}
+
+.slot83XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 5);
+}
+
+.slot84XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 6);
+}
+
+.slot85XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 6);
+}
+
+.slot86XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 6);
+}
+
+.slot87XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 6);
+}
+
+.slot88XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 6);
+}
+
+.slot89XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 6);
+}
+
+.slot90XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 6);
+}
+
+.slot91XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 6);
+}
+
+.slot92XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 6);
+}
+
+.slot93XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 6);
+}
+
+.slot94XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 6);
+}
+
+.slot95XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 6);
+}
+
+.slot96XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 6);
+}
+
+.slot97XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 6);
+}
+
+.slot98XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 7);
+}
+
+.slot99XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 7);
+}
+
+.slot100XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 7);
+}
+
+.slot101XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 7);
+}
+
+.slot102XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 7);
+}
+
+.slot103XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 7);
+}
+
+.slot104XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 7);
+}
+
+.slot105XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 7);
+}
+
+.slot106XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 7);
+}
+
+.slot107XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 7);
+}
+
+.slot108XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 7);
+}
+
+.slot109XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 7);
+}
+
+.slot110XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 7);
+}
+
+.slot111XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 7);
+}
+
+.slot112XLarge {
+	position: absolute;
+	left: calc(64px * 0);
+	top: calc(64px * 8);
+}
+
+.slot113XLarge {
+	position: absolute;
+	left: calc(64px * 1);
+	top: calc(64px * 8);
+}
+
+.slot114XLarge {
+	position: absolute;
+	left: calc(64px * 2);
+	top: calc(64px * 8);
+}
+
+.slot115XLarge {
+	position: absolute;
+	left: calc(64px * 3);
+	top: calc(64px * 8);
+}
+
+.slot116XLarge {
+	position: absolute;
+	left: calc(64px * 4);
+	top: calc(64px * 8);
+}
+
+.slot117XLarge {
+	position: absolute;
+	left: calc(64px * 5);
+	top: calc(64px * 8);
+}
+
+.slot118XLarge {
+	position: absolute;
+	left: calc(64px * 6);
+	top: calc(64px * 8);
+}
+
+.slot119XLarge {
+	position: absolute;
+	left: calc(64px * 7);
+	top: calc(64px * 8);
+}
+
+.slot120XLarge {
+	position: absolute;
+	left: calc(64px * 8);
+	top: calc(64px * 8);
+}
+
+.slot121XLarge {
+	position: absolute;
+	left: calc(64px * 9);
+	top: calc(64px * 8);
+}
+
+.slot122XLarge {
+	position: absolute;
+	left: calc(64px * 10);
+	top: calc(64px * 8);
+}
+
+.slot123XLarge {
+	position: absolute;
+	left: calc(64px * 11);
+	top: calc(64px * 8);
+}
+
+.slot124XLarge {
+	position: absolute;
+	left: calc(64px * 12);
+	top: calc(64px * 8);
+}
+
+.slot125XLarge {
+	position: absolute;
+	left: calc(64px * 13);
+	top: calc(64px * 8);
+}
+
+.quantity {
+	position: absolute;
+	right: 8px;
+	top: calc(100% - 32px);
+	text-align: right;
+	font-size: 24px;
+}
+
+.Equip1 {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 64px;
+  height: 64px;
+	background: url(images/Left.svg);
+}
+
+.Equip2 {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 64px;
+  height: 64px;
+	background: url(images/Up.svg);
+}
+
+.Equip3 {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 64px;
+  height: 64px;
+	background: url(images/Right.svg);
+}
+
+.Equip4 {
+	position: absolute;
+	left: 0px;
+	top: 0;
+	width: 64px;
+  height: 64px;
+	background: url(images/Down.svg);
+}
+
+.Slot6x2 {
+	width: calc(64px * 6);
+	height: calc(64px * 2);
+	background: url(images/Slot6x2.svg);
+}
+
+.Slot2x6 {
+	width: calc(64px * 2);
+	height: calc(64px * 6);
+	background: url(images/Slot2x6.svg);
+}
+
+.Slot5x2 {
+	width: calc(64px * 5);
+	height: calc(64px * 2);
+	background: url(images/Slot5x2.svg);
+}
+
+.Slot2x5 {
+	width: calc(64px * 2);
+	height: calc(64px * 5);
+	background: url(images/Slot2x5.svg);
+}
+
+.Slot4x2 {
+	width: calc(64px * 4);
+	height: calc(64px * 2);
+	background: url(images/Slot4x2.svg);
+}
+
+.Slot2x4 {
+	width: calc(64px * 2);
+	height: calc(64px * 4);
+	background: url(images/Slot2x4.svg);
+}
+
+.Slot3x2 {
+	width: calc(64px * 3);
+	height: calc(64px * 2);
+	background: url(images/Slot3x2.svg);
+}
+
+.Slot2x3 {
+	width: calc(64px * 2);
+	height: calc(64px * 3);
+	background: url(images/Slot2x3.svg);
+}
+
+.Slot2x2 {
+	width: calc(64px * 2);
+	height: calc(64px * 2);
+	background: url(images/Slot2x2.svg);
+}
+
+.Slot2x1 {
+	width: calc(64px * 2);
+	height: calc(64px * 1);
+	background: url(images/Slot2x1.svg);
+}
+
+.Slot1x2 {
+	width: calc(64px * 1);
+	height: calc(64px * 2);
+	background: url(images/Slot1x2.svg);
+}
+
+.Slot1x1 {
+	width: calc(64px * 1);
+	height: calc(64px * 1);
+	background: url(images/Slot1x1.svg);
+}
